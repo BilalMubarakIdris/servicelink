@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "695188268049",
+    "project_id": "servicelink-fedaf",
+    "storage_bucket": "servicelink-fedaf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695188268049:android:4870beee537ba3ff6b3db0",
+        "android_client_info": {
+          "package_name": "com.example.servicelink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-YvbVh35NiaBO7N-CN93mFR0Ia5jP9-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
