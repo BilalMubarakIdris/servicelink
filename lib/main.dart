@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get/get.dart';
 import 'config/firebase_config.dart';
 import 'config/routes.dart';
@@ -9,6 +10,7 @@ import 'utils/themes.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load();
   await FirebaseConfig.initializeFirebase();
 
   await initServices();
